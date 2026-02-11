@@ -1,5 +1,11 @@
 deq
 reqbr
-
+echo "# something-updated" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Ion752/something-updated.git
+git push -u origin main
 RT
 BRT
